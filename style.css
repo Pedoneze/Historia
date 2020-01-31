@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Marck+Script|Parisienne&display=swap');
+
 body{
   background-color: black;
   background-image: url(imagens/papiro1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  }
+  h1  {
+    background-color: white;
+    m.ax-width: 300px;
+    ma.rgin: auto;
+    opacity: 65%;
   }
 header{
   background-image: url(imagens/fundoteste1.jpg);
@@ -10,11 +18,12 @@ header{
   background-size: cover;
   background-position: center;
   background-color: black;
-  font-family:sans-serif;
+  font-family: 'Alex Brush', cursive;
+  font-size: 30px;
   opacity: 80%;
   text-align: center;
-  color: white;
-    padding: 25px;
+  color: black;
+  padding: 25px 0px;
   margin-bottom: 20px;
   max-width: 900px;
   margin: auto;
