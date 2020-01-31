@@ -28,7 +28,7 @@ nav{
   font-size: 10px;
   margin: auto;
   max-width: 900px;
-  align-items: center;
+  justify-content: center;
     }
 main{
   max-width: 900px;
