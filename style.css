@@ -1,0 +1,117 @@
+body{
+  background-color: black;
+  background-image: url(imagens/papiro1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+header{
+  background-image: url(imagens/fundoteste1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  font-family:sans-serif;
+  opacity: 80%;
+  text-align: center;
+  color: white;
+    padding: 25px;
+  margin-bottom: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+nav{
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  background-color: black;
+  opacity: 85%;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin: auto;
+  max-width: 900px;
+  align-items: center;
+    }
+main{
+  max-width: 900px;
+  /* align-items: center; */
+  margin: auto;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  color: white;
+  font-family: sans-serif;
+  }
+footer{
+  background-color:black;
+  opacity: 80%;
+  text-align: center;
+  color: #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+.menu-topo {
+  font-size: 10px;
+  padding: 5px;
+  margin: auto;
+}
+.Menu-article{
+  background-color: #ffcb94;
+  opacity: 60%;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 35px;
+}
+.Menu-article-individual{
+  background-color: #ffcb94;
+  width: 90%;
+  opacity: 60%;
+  color: black;
+  display: grid;
+  grid-column: span 3;
+  text-align: center;
+  font-size: 15px;
+  padding: 35px;
+  margin: auto;
+}
+div a {
+  text-decoration: none;
+  background-color:#ffcb94;
+  color: black;
+  padding: 10px 25px;
+  bo-rder-radius: 10px;
+  margin: auto;
+}
+div a:hover{
+  background-color: #6f4b37;
+}
+article a {
+text-decoration: none;
+background-color: white;
+color: black;
+padding: 2px 5px;
+border-radius: 2px;
+margin: auto;
+}
+article a:hover{
+  background-color: #ffcb94;
+}
+article img{
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 5px;
+}
+footer a{
+    text-decoration: none;
+    background-color:#ffcb94;
+    color: black;
+    padding: 3px 5px;
+    bo-rder-radius: 10px;
+    margin: auto;
+}
+footer a:hover{
+    background-color: #6f4b37;
+}
